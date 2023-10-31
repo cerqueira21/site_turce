@@ -36,8 +36,7 @@ header nav a{
 }
 
 .container{
-    max-width: 1650px;
-    width: 100%;
+    max-width: 1580px;
     margin: 0 auto;
 }
 
@@ -47,43 +46,44 @@ header .container{
     justify-content: space-between;
 }
 
-/* ========Sobre==== */
 .banner{
     height: 400px;
     width: 1650px;
 }
-
-section h2{
+/* ========Sobre==== */
+.titulo{
     display: flex;
     background-color: black;
+    color: white;
     max-width: 1000px;
     margin: 0 auto;
-    text-align: center;
-    font-size: 50px;
     justify-content: center;
-    color: white;
+    text-align: center;
 }
 
 .texto{
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    text-align:justify;
     background-color: #E1E1E1;
+    color: black;
     height: 700px;
     max-width: 1000px;
     margin: 0 auto;
-    color: black;
 }
 
-.patrocinios img{
-    height: 40px;
-
+.patrocinio img{
+    height: 50px;
 }
-.patrocinios li{
+
+.patrocinio{
+    display: flex;
+    padding: 16px 0;
     max-width: 1000px;
-    display: inline;
-    margin-right: 50px;
+    margin: 0 auto;
+    justify-content: space-around;
+    list-style: none;
 }
-
 /* =====Contato===== */
 #contato .container{
     display:flex;
